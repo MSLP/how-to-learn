@@ -20,10 +20,15 @@
   display: flex;
 }
 
+.logo {
+  width: 183px;
+}
+
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
+  height: 32px;
   z-index: 2;
 }
 
@@ -137,10 +142,13 @@
 }
 
 .table {
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
   width: 1100px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .table__cell {
@@ -165,16 +173,13 @@
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
+  position: relative;
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
   padding: 0;
   z-index: 1;
-}
-
-.section_theme_dark {
-  background-color: #1f1f1f;
 }
 
 .section-title_theme_dark {
@@ -242,6 +247,7 @@
   position: relative;
   padding: 90px 0;
   overflow: hidden;
+  background-color: #1f1f1f;
 }
 
 .kaufman-triangle {
@@ -268,16 +274,18 @@
   padding: 60px 0 40px 0;
 }
 
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   min-height: 250px;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
 }
 
