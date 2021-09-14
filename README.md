@@ -1,12 +1,9 @@
 # How to learn.
 
-Научиться учиться вместе с Яндекс - веб-страница,
-созданная студентом Яндекс Практикума для отработки
-навыков вёрстки. Страница состоит из нескольких секций,
-которые включают в себя таблицы, видео и анимацию.
+This project was created within the bootcamp. It was used to get experience with HTML and CSS basics, practise in grid-layout and work with videos and animation.
 
-## Используемые технологии и сторонние библиотеки:
-* HTML
-* CSS
+## Technologies:
+* HTML5
+* CSS3
 * Grid-layout
 * normalize.css
